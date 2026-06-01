@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #243447;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1d4e89;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #16324f;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+.secao {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 22px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #1d4e89;
+}
+
+.secao h2 {
+    font-size: 26px;
+    color: #1d4e89;
+    margin-top: 0;
+    text-align: left;
+}
+
+.secao p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+button {
+    background-color: #1d4e89;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16324f;
+}
+
+#areaImagem {
+    text-align: center;
+    margin: 24px 0;
+}
+
+#areaImagem img {
+    max-width: 100%;
+    border-radius: 12px;
+    border: 3px solid #1d4e89;
+}
+
+footer {
+    background-color: #16324f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 32px;
+}
+
+
+.bg-copa {
+            background-image: url('FIFA-World-Cup-26.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .card {
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
